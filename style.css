@@ -1041,6 +1041,7 @@ footer section:first-child div:last-child span:last-child {
 
     .communicate {
         margin-top: 50px;
+        max-width: 300px;
     }
 
     .social-medias {
@@ -1058,110 +1059,6 @@ footer section:first-child div:last-child span:last-child {
     .news-text-sentence + div span {
         font-size: 10px;
     }
-}
-
-@media  screen and (max-width:1300px) {
-    main {
-        max-width: 1200px;
-    }
-
-    .menu-list {
-        gap: 20px;
-    }
-
-    .list-items a {
-        font-size: 12px;
-    }
-
-    .second-main-section {
-        gap: 40px;
-    }
-
-    .communicate {
-        max-width: 265px;
-    }
-    
-    .social-medias {
-        padding: 20px 40px;
-    }
-
-    .social-medias span {
-        font-size: 14px;
-    }
-
-    .social-medias-icon svg {
-        width: 25px;
-    }
-
-    .login-form h3 {
-        font-size: 18px;
-    }
-
-    .username , .password {
-        font-size: 14px;
-    }
-    
-    .checkbox {
-        font-size: 14px;
-    }
-
-    .login {
-        font-size: 14px;
-    }
-
-    .teams-ranking h3 {
-        font-size: 20px;
-    }
-
-    .ranking-table thead tr th {
-        font-size: 14px;
-        font-weight: 500;
-    }
-
-    .ranking-table tbody tr {
-        font-size:14px ;
-    }
-
-    .analaysis-station-title h2 , .last-news-title h2 {
-        font-size: 25px;
-    }
-
-    .analaysis-station-title a, .last-news-title a {
-        font-size: 12px;
-    }
-
-    .analaysis-station h3 , .last-news h3 {
-        font-size: 16px;
-        font-weight: 600;
-    }
-
-    .analaysis-station h3 + div , .last-news h3 + div {
-        font-size: 10px;
-    }
-
-    .analaysis-station h3 + div + div , .last-news h3 + div + div {
-        font-size: 14px;
-    } 
-
-    .station-news-content, .last-news-item-content {
-        gap: 15px;
-    }
-
-    .station-news-content img , .last-news-item-content img {
-        max-width: 75px;
-    }
-
-    .station-news .news-text div , .last-news .news-text div{
-        gap: 0px;
-    }
-
-    .news-text-sentence {
-        font-size: 11.5px;
-    }
-
-    .news-text-sentence + div span {
-        font-size: 8px;
-    }
 
     .telegram-connection {
         justify-content: center;
@@ -1171,7 +1068,7 @@ footer section:first-child div:last-child span:last-child {
         width: 80%;
         margin-bottom: 20px;
         position: absolute;
-        bottom: 1220px;
+        bottom: 1210px;
     }
 
     footer {
@@ -1201,3 +1098,4 @@ footer section:first-child div:last-child span:last-child {
         font-size: 14px;
     }
 }
+
