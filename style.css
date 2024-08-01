@@ -458,6 +458,10 @@ td {
     border-bottom-right-radius: 10px;
 }
 
+.second-main-section-news-box {
+    gap: 40px;
+}
+
 .analaysis-station {
     width: 100%;
     background: #0000000d;
@@ -716,6 +720,7 @@ td {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .telegram-connection img {
@@ -837,6 +842,7 @@ footer section:first-child div:last-child span:last-child {
 
     .second-main-section {
         gap: 40px;
+        margin-bottom: 10px;
     }
 
     .communicate {
@@ -884,6 +890,10 @@ footer section:first-child div:last-child span:last-child {
         font-size:14px ;
     }
 
+    .second-main-section-news-box {
+        gap: 40px;
+    }
+
     .analaysis-station-title h2 , .last-news-title h2 {
         font-size: 25px;
     }
@@ -923,6 +933,10 @@ footer section:first-child div:last-child span:last-child {
 
     .news-text-sentence + div span {
         font-size: 8px;
+    }
+
+    .telegram-connection img {
+        margin-right: 30px;
     }
 
     footer section:first-child div:last-child span:first-child {
@@ -983,6 +997,10 @@ footer section:first-child div:last-child span:last-child {
     .social-medias-icon a:first-child svg {
         width: 30px;
     } 
+
+    .second-main-section-news-box {
+        gap: 25px;
+    }
 
     .news-text-sentence {
         font-size: 12px;
@@ -1068,6 +1086,10 @@ footer section:first-child div:last-child span:last-child {
         font-size:11px ;
     }
 
+    .second-main-section-news-box {
+        gap: 20px;
+    }
+
     .analaysis-station-title h2 , .last-news-title h2 {
         font-size: 20px;
     }
@@ -1121,7 +1143,7 @@ footer section:first-child div:last-child span:last-child {
     }
 
     .list-items a {
-        font-size: 8px;
+        font-size: 0.5rem;
         gap: 3px;
     }
 
@@ -1134,12 +1156,14 @@ footer section:first-child div:last-child span:last-child {
     }
 
     .second-main-section {
+        flex-direction: column-reverse;
         gap: 20px;
         padding: 20px 5px;
     }
 
     .communicate {
-        max-width: 200px;
+        max-width: 595px;
+        padding: 10px 100px;
     }
     
     .social-medias {
@@ -1183,6 +1207,10 @@ footer section:first-child div:last-child span:last-child {
 
     .ranking-table tbody tr {
         font-size:11px ;
+    }
+
+    .second-main-section-news-box {
+        gap: 20px;
     }
 
     .analaysis-station-title h2 , .last-news-title h2 {
@@ -1276,8 +1304,9 @@ footer section:first-child div:last-child span:last-child {
     }
 
     .communicate {
-        margin-top: 50px;
+        margin-top: 60px;
         max-width: 300px;
+        padding: 0px;
     }
 
     .social-medias {
@@ -1319,6 +1348,10 @@ footer section:first-child div:last-child span:last-child {
 
     .ranking-table tbody tr {
         font-size:14px ;
+    }
+
+    .second-main-section-news-box {
+        flex-direction: column-reverse;
     }
 
     .analaysis-station-title h2 , .last-news-title h2 {
@@ -1370,7 +1403,7 @@ footer section:first-child div:last-child span:last-child {
         width: 90%;
         margin-bottom: 20px;
         position: absolute;
-        bottom: 1170px;
+        bottom: 1147px;
     }
 
     footer {
