@@ -939,9 +939,6 @@ footer section:first-child div:last-child span:last-child {
 }
 
 @media  screen and (max-width:1000px) {
-    main {
-        max-width: 1200px;
-    }
 
     .menu-list {
         gap: 10px;
@@ -971,16 +968,21 @@ footer section:first-child div:last-child span:last-child {
     }
 
     .communicate {
-        max-width: 200px;
+        max-width: 230px;
     }
     
     .social-medias {
-        padding: 20px 40px;
+        padding: 20px;
+        height: 130px;
     }
 
     .social-medias-icon svg {
-        width: 35px;
+        width: 25px;
     }
+
+    .social-medias-icon a:first-child svg {
+        width: 30px;
+    } 
 
     .news-text-sentence {
         font-size: 12px;
@@ -988,6 +990,240 @@ footer section:first-child div:last-child span:last-child {
 
     .news-text-sentence + div span {
         font-size: 10px;
+    }
+}
+
+@media  screen and (max-width:820px) {
+
+    .menu-list {
+        gap: 8px;
+    }
+
+    .search-button i {
+        font-size: 10px;
+    }
+
+    .list-items a {
+        font-size: 8px;
+        gap: 3px;
+    }
+
+    .short-news-content div a {
+        font-size: 10px;
+    }
+
+    .short-news-content img {
+        min-height: 150px;
+    }
+
+    .second-main-section {
+        gap: 20px;
+        padding: 20px 5px;
+    }
+
+    .communicate {
+        max-width: 200px;
+    }
+    
+    .social-medias {
+        padding: 10px;
+        height: 110px;
+    }
+
+    .social-medias-icon svg {
+        width: 20px;
+    }
+
+    .social-medias-icon a:first-child svg {
+        width: 25px;
+    } 
+
+    .login-form h3 {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    .username , .password , .checkbox , .login {
+        font-size: 10px;
+    }
+
+    #username , #password {
+        margin-top: 0px;
+    }
+
+    .teams-ranking h3 {
+        font-size: 14px;
+    }
+
+    .ranking-table {
+        margin-top: 0px;
+    }
+
+    .ranking-table thead tr th {
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .ranking-table tbody tr {
+        font-size:11px ;
+    }
+
+    .analaysis-station-title h2 , .last-news-title h2 {
+        font-size: 20px;
+    }
+
+    .analaysis-station-title a, .last-news-title a {
+        font-size: 10px;
+    }
+
+    .analaysis-station h3 , .last-news h3 {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .analaysis-station h3 + div , .last-news h3 + div {
+        font-size: 8px;
+    }
+
+    .analaysis-station h3 + div + div , .last-news h3 + div + div {
+        font-size: 12px;
+    } 
+
+    .station-news-content, .last-news-item-content {
+        gap: 10px;
+    }
+
+    .station-news-content img , .last-news-item-content img {
+        max-width: 75px;
+    }
+
+    .station-news .news-text div , .last-news .news-text div{
+        gap: 0px;
+    }
+    
+    .news-text-sentence {
+        font-size: 10px;
+    }
+
+    .news-text-sentence + div span {
+        font-size: 7px;
+    }
+}
+
+@media  screen and (max-width:730px) {
+
+    .menu-list {
+        gap: 8px;
+    }
+
+    .search-button i {
+        font-size: 10px;
+    }
+
+    .list-items a {
+        font-size: 8px;
+        gap: 3px;
+    }
+
+    .short-news-content div a {
+        font-size: 10px;
+    }
+
+    .short-news-content img {
+        min-height: 150px;
+    }
+
+    .second-main-section {
+        gap: 20px;
+        padding: 20px 5px;
+    }
+
+    .communicate {
+        max-width: 200px;
+    }
+    
+    .social-medias {
+        padding: 10px;
+        height: 110px;
+    }
+
+    .social-medias-icon svg {
+        width: 20px;
+    }
+
+    .social-medias-icon a:first-child svg {
+        width: 25px;
+    } 
+
+    .login-form h3 {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    .username , .password , .checkbox , .login {
+        font-size: 10px;
+    }
+
+    #username , #password {
+        margin-top: 0px;
+    }
+
+    .teams-ranking h3 {
+        font-size: 14px;
+    }
+
+    .ranking-table {
+        margin-top: 0px;
+    }
+
+    .ranking-table thead tr th {
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .ranking-table tbody tr {
+        font-size:11px ;
+    }
+
+    .analaysis-station-title h2 , .last-news-title h2 {
+        font-size: 20px;
+    }
+
+    .analaysis-station-title a, .last-news-title a {
+        font-size: 10px;
+    }
+
+    .analaysis-station h3 , .last-news h3 {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .analaysis-station h3 + div , .last-news h3 + div {
+        font-size: 8px;
+    }
+
+    .analaysis-station h3 + div + div , .last-news h3 + div + div {
+        font-size: 12px;
+    } 
+
+    .station-news-content, .last-news-item-content {
+        gap: 10px;
+    }
+
+    .station-news-content img , .last-news-item-content img {
+        max-width: 75px;
+    }
+
+    .station-news .news-text div , .last-news .news-text div{
+        gap: 0px;
+    }
+    
+    .news-text-sentence {
+        font-size: 10px;
+    }
+
+    .news-text-sentence + div span {
+        font-size: 7px;
     }
 }
 
@@ -1048,8 +1284,74 @@ footer section:first-child div:last-child span:last-child {
         padding: 20px 40px;
     }
 
+    .social-medias span {
+        font-size: 14px;
+    }
+
     .social-medias-icon svg {
         width: 35px;
+    }
+
+    .login-form h3 {
+        font-size: 18px;
+    }
+
+    .username , .password {
+        font-size: 14px;
+    }
+    
+    .checkbox {
+        font-size: 14px;
+    }
+
+    .login {
+        font-size: 14px;
+    }
+
+    .teams-ranking h3 {
+        font-size: 20px;
+    }
+
+    .ranking-table thead tr th {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .ranking-table tbody tr {
+        font-size:14px ;
+    }
+
+    .analaysis-station-title h2 , .last-news-title h2 {
+        font-size: 25px;
+    }
+
+    .analaysis-station-title a, .last-news-title a {
+        font-size: 12px;
+    }
+
+    .analaysis-station h3 , .last-news h3 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .analaysis-station h3 + div , .last-news h3 + div {
+        font-size: 10px;
+    }
+
+    .analaysis-station h3 + div + div , .last-news h3 + div + div {
+        font-size: 14px;
+    } 
+
+    .station-news-content, .last-news-item-content {
+        gap: 15px;
+    }
+
+    .station-news-content img , .last-news-item-content img {
+        max-width: 75px;
+    }
+
+    .station-news .news-text div , .last-news .news-text div{
+        gap: 0px;
     }
 
     .news-text-sentence {
@@ -1068,7 +1370,7 @@ footer section:first-child div:last-child span:last-child {
         width: 90%;
         margin-bottom: 20px;
         position: absolute;
-        bottom: 1210px;
+        bottom: 1170px;
     }
 
     footer {
