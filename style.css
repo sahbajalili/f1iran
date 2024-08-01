@@ -1003,13 +1003,13 @@ footer section:first-child div:last-child span:last-child {
     }
 
     .header-title {
-        margin-bottom: 8px;
+        margin-bottom: 10px;
         flex-direction: column-reverse;
         gap: 20px;
     }
 
     .logo img , .insta-address img {
-        width: 80%;
+        width: 90%;
     }
 
     .search-button i {
@@ -1065,7 +1065,7 @@ footer section:first-child div:last-child span:last-child {
     }
 
     .telegram-connection img {
-        width: 80%;
+        width: 90%;
         margin-bottom: 20px;
         position: absolute;
         bottom: 1210px;
