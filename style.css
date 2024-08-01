@@ -975,143 +975,19 @@ footer section:first-child div:last-child span:last-child {
     }
     
     .social-medias {
-        height: 120px;
-        padding: 20px;
-        margin-bottom: 22px;
-    }
-
-    .social-medias span {
-        font-size: 12px;
+        padding: 20px 40px;
     }
 
     .social-medias-icon svg {
-        width: 18px;
-    }
-
-    .social-medias-icon a:first-child svg {
-        width: 22px;
-    }
-
-    .login-form {
-        margin-bottom: 25px;
-    }
-
-    .login-form h3 {
-        font-size: 13px;
-        padding: 12px 0px;
-    }
-
-    .username , .password {
-        font-size: 10px;
-    }
-
-    #username , #password {
-        margin-top: 0px;
-        padding: 5px 10px;
-    }
-    
-    .checkbox {
-        font-size: 10px;
-    }
-
-    .login {
-        font-size: 10px;
-    }
-
-    .teams-ranking h3 {
-        font-size: 13px;
-        margin: 0px;
-    }
-
-    .ranking-table {
-        margin-top: 10px;
-    }
-
-    .ranking-table thead tr th {
-        font-size: 10px;
-        font-weight: 500;
-    }
-
-    .ranking-table tbody tr {
-        font-size:8px ;
-    }
-
-    .analaysis-station , .last-news {
-        padding: 20px 10px;
-    }
-
-    .analaysis-station-title h2 , .last-news-title h2 {
-        font-size: 20px;
-    }
-
-    .analaysis-station-title a, .last-news-title a {
-        font-size: 10px;
-    }
-
-    .analaysis-station h3 , .last-news h3 {
-        font-size: 14px;
-        font-weight: 600;
-    }
-
-    .analaysis-station h3 + div , .last-news h3 + div {
-        font-size: 8px;
-    }
-
-    .analaysis-station h3 + div + div , .last-news h3 + div + div {
-        font-size: 10px;
-    } 
-
-    .station-news-content, .last-news-item-content {
-        margin-bottom: 0px;
-    }
-
-    .station-news-content, .last-news-item-content {
-        gap: 15px;
-    }
-
-    .station-news-content img , .last-news-item-content img {
-        max-width: 70px;
+        width: 35px;
     }
 
     .news-text-sentence {
-        font-size: 8px;
-    }
-
-    .station-news .news-text span:first-child, .last-news .news-text span:first-child {
-        margin-bottom: 3px;
+        font-size: 12px;
     }
 
     .news-text-sentence + div span {
-        font-size: 5.5px;
-    }
-
-    .telegram-connection img {
-        margin-right: 30px;
-        margin-bottom: 20px;
-    }
-
-    footer {
-        padding: 5px 30px;
-    }
-
-    footer section {
-        margin: 10px;
-    }
-
-    footer section:first-child div:first-child img {
-        max-width: 130px;
-    }
-
-    footer section:first-child div:last-child span:first-child {
-        font-size: 11px;
-    } 
-
-    footer section:first-child div:last-child span:last-child {
-        font-size: 13px;
-    }
-
-    .footer-item {
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 
@@ -1123,11 +999,17 @@ footer section:first-child div:last-child span:last-child {
 
     header {
         margin: 0px;
+        padding: 14px 20px;
     }
 
     .header-title {
+        margin-bottom: 8px;
         flex-direction: column-reverse;
         gap: 20px;
+    }
+
+    .logo img , .insta-address img {
+        width: 80%;
     }
 
     .search-button i {
@@ -1148,6 +1030,7 @@ footer section:first-child div:last-child span:last-child {
 
     .short-news-content img {
         max-width: 300px;
+        min-height: 250px;
     }
 
     .second-main-section {
@@ -1160,15 +1043,135 @@ footer section:first-child div:last-child span:last-child {
         margin-top: 50px;
     }
 
+    .social-medias {
+        padding: 20px 40px;
+    }
+
+    .social-medias-icon svg {
+        width: 35px;
+    }
+
+    .news-text-sentence {
+        font-size: 12px;
+    }
+
+    .news-text-sentence + div span {
+        font-size: 10px;
+    }
+}
+
+@media  screen and (max-width:1300px) {
+    main {
+        max-width: 1200px;
+    }
+
+    .menu-list {
+        gap: 20px;
+    }
+
+    .list-items a {
+        font-size: 12px;
+    }
+
+    .second-main-section {
+        gap: 40px;
+    }
+
+    .communicate {
+        max-width: 265px;
+    }
+    
+    .social-medias {
+        padding: 20px 40px;
+    }
+
+    .social-medias span {
+        font-size: 14px;
+    }
+
+    .social-medias-icon svg {
+        width: 25px;
+    }
+
+    .login-form h3 {
+        font-size: 18px;
+    }
+
+    .username , .password {
+        font-size: 14px;
+    }
+    
+    .checkbox {
+        font-size: 14px;
+    }
+
+    .login {
+        font-size: 14px;
+    }
+
+    .teams-ranking h3 {
+        font-size: 20px;
+    }
+
+    .ranking-table thead tr th {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .ranking-table tbody tr {
+        font-size:14px ;
+    }
+
+    .analaysis-station-title h2 , .last-news-title h2 {
+        font-size: 25px;
+    }
+
+    .analaysis-station-title a, .last-news-title a {
+        font-size: 12px;
+    }
+
+    .analaysis-station h3 , .last-news h3 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .analaysis-station h3 + div , .last-news h3 + div {
+        font-size: 10px;
+    }
+
+    .analaysis-station h3 + div + div , .last-news h3 + div + div {
+        font-size: 14px;
+    } 
+
+    .station-news-content, .last-news-item-content {
+        gap: 15px;
+    }
+
+    .station-news-content img , .last-news-item-content img {
+        max-width: 75px;
+    }
+
+    .station-news .news-text div , .last-news .news-text div{
+        gap: 0px;
+    }
+
+    .news-text-sentence {
+        font-size: 11.5px;
+    }
+
+    .news-text-sentence + div span {
+        font-size: 8px;
+    }
+
     .telegram-connection {
         justify-content: center;
-        position: absolute;
-        bottom: 1230px;
     }
 
     .telegram-connection img {
         width: 80%;
         margin-bottom: 20px;
+        position: absolute;
+        bottom: 1220px;
     }
 
     footer {
