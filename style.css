@@ -1130,6 +1130,31 @@ footer section:first-child div:last-child span:last-child {
     .news-text-sentence + div span {
         font-size: 7px;
     }
+    
+    footer {
+        padding: 20px 30px;
+    }
+
+    footer section {
+        margin: 5px;
+    }
+
+    footer section:first-child {
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+
+    footer section:first-child div:first-child img {
+        width: 40%;
+    }
+
+    footer section:first-child div:last-child span:first-child {
+        font-size: 12px;
+    }
+
+    footer section:first-child div:last-child span:last-child {
+        font-size: 14px;
+    }
 }
 
 @media  screen and (max-width:730px) {
@@ -1253,6 +1278,42 @@ footer section:first-child div:last-child span:last-child {
 
     .news-text-sentence + div span {
         font-size: 7px;
+    }
+}
+
+@media  screen and (max-width:685px) {
+    .header-menu {
+        gap: 20px;
+    }
+
+    .menu-list {
+        gap: 3px;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .short-news section {
+        gap: 8px;
+    }
+
+    .list-items a {
+        font-size: 6px;
+    }
+
+    footer section:first-child div:last-child span:first-child {
+        font-size: 10px;
+    }
+
+    footer section:first-child div:last-child span:last-child {
+        font-size: 11px;
+    }
+
+    .footer-menu {
+        gap: 20px;
+    }
+
+    .footer-item {
+        font-size: 10px;
     }
 }
 

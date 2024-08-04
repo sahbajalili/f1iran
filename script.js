@@ -7,7 +7,7 @@ let menuList = doc.querySelector('.menu-list')
 let hambergerbutton
 let newMenuList 
 
-if (window.innerWidth <= 450) {
+if (window.innerWidth <= 530) {
     menuList.remove()
     hambergerbutton = doc.createElement('button')
     hambergerbutton.innerHTML = '<i class="fa fa-bars"></i>'
